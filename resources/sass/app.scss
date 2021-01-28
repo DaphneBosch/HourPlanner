@@ -1,0 +1,17 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// fonts
+@import 'fonts';
+
+// Custom sass
+@import 'home/home';
+@import 'components/navbar';
+@import 'components/footer';
+@import 'hourplanner/hourplanner';

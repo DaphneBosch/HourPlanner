@@ -1,0 +1,11 @@
+.nav-item {
+    font-size: 17px;
+
+    a {
+        transition: color 0.3s linear;
+        -webkit-transition: color 0.3s linear;
+        -moz-transition: color 0.3s linear;
+        color: #757474 !important;
+        font-family: 'Raleway', sans-serif;
+    }
+}
