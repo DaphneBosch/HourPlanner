@@ -8,6 +8,12 @@
 }
 
 .button-text {
-    font-family: 'Lobster', sans-serif;
-    font-size: 30px !important;
+    font-family: $mulish;
+    font-weight: 900 !important;
+    font-size: 20px !important;
+    letter-spacing: -1px;
+}
+
+.table {
+    font-family: $mulish;
 }

@@ -3,6 +3,7 @@
 
 400;500;600;700;800;900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap);
 @charset "UTF-8";
 
 /*!
@@ -10906,6 +10907,10 @@ a.text-dark:focus {
   }
 }
 
+body {
+  font-family: "Mulish", sans-serif !important;
+}
+
 .hero {
   height: 80vh;
   background: linear-gradient(45deg, rgba(255, 175, 189, 0.7), rgba(100, 216, 243, 0.7), rgba(234, 236, 198, 0.7), rgba(245, 146, 176, 0.7), rgba(52, 219, 216, 0.7)) 0 0/1000% no-repeat, url(https://images.pexels.com/photos/733857/pexels-photo-733857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) 0 0/cover no-repeat;
@@ -10921,7 +10926,8 @@ a.text-dark:focus {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  font-family: "Raleway", sans-serif !important;
+  font-family: "Mulish", sans-serif !important;
+  letter-spacing: -1px;
   font-weight: 900;
   text-shadow: 1px 1px black;
 }
@@ -11017,7 +11023,8 @@ a.text-dark:focus {
 .btn-primary {
   background-color: #cb9699 !important;
   border-color: #cb9699 !important;
-  font-family: "Lobster", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900 !important;
   font-size: 25px !important;
 }
 
@@ -11030,7 +11037,10 @@ a.text-dark:focus {
   -webkit-transition: color 0.3s linear;
   -moz-transition: color 0.3s linear;
   color: #757474 !important;
-  font-family: "Raleway", sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  letter-spacing: -1px;
+  font-size: 20px;
 }
 
 img {
@@ -11051,6 +11061,7 @@ ul {
 
 .contact-area {
   border-bottom: 1px solid #353C46;
+  font-family: "Mulish", sans-serif;
 }
 
 .contact-content p {
@@ -11119,6 +11130,7 @@ footer {
 footer p {
   padding: 40px 0;
   text-align: center;
+  font-family: "Mulish", sans-serif;
 }
 
 footer img {
@@ -11135,8 +11147,14 @@ footer img {
 }
 
 .button-text {
-  font-family: "Lobster", sans-serif;
-  font-size: 30px !important;
+  font-family: "Mulish", sans-serif;
+  font-weight: 900 !important;
+  font-size: 20px !important;
+  letter-spacing: -1px;
+}
+
+.table {
+  font-family: "Mulish", sans-serif;
 }
 
 

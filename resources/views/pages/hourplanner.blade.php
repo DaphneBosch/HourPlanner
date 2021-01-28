@@ -67,8 +67,8 @@
                                 <input type="text" class="form-control"
                                        id="total_hours" name="total_hours" placeholder="Total hours">
                             </div>
-                            <div class="col-sm-offset-2 col-sm-10">
-                                <button type="submit" class="btn btn-primary" id="btn-save">Save
+                            <div class="col-sm-offset-2">
+                                <button type="submit" class="btn btn-success" id="btn-save">Save
                                 </button>
                             </div>
                         </form>
@@ -94,7 +94,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger" id="btn-delete" onclick="confirmDelete()">Remove</button>
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-light" data-dismiss="modal">Cancel</button>
                 </div>
             </div>
         </div>

@@ -1,3 +1,7 @@
+body {
+    font-family: $mulish !important;
+}
+
 .hero {
     height: 80vh;
     background: linear-gradient(45deg, rgba(255,175,189,.7), rgba(100,216,243,.7), rgba(234,236,198,.7), rgba(245,146,176,.7), rgba(52,219,216,.7)) 0 0 / 1000% no-repeat, url(https://images.pexels.com/photos/733857/pexels-photo-733857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) 0 0 / cover no-repeat;
@@ -13,7 +17,8 @@
         color: #fff;
         text-align: center;
         white-space: nowrap;
-        font-family: 'Raleway', sans-serif !important;
+        font-family: $mulish !important;
+        letter-spacing: -1px;
         font-weight: 900;
         text-shadow: 1px 1px black;
     }
@@ -91,7 +96,8 @@
 .btn-primary {
     background-color: #cb9699 !important;
     border-color: #cb9699 !important;
-    font-family: 'Lobster', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900 !important;
     font-size: 25px !important;
 }
 
